@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+main {
+    height: 200px;
+    text-align: center;
+}
+
+.maintitle {
+    color: white;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+div {
+    background-color: #41AB5D;
+    margin: 30px auto;
+    border: solid 5px white;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    height: auto;
+    width: 900px;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.subtext {
+    color: wheat
+}
+
+.questionnaire {
+    color: yellow
+}
+
+.questionnaire2 {
+    color: cyan
+}
+
+.questionnaire3 {
+    color: sandybrown
+}
+
+.questionnaire4 {
+    color: darkorchid
+}
+
+.questionnaire5 {
+    color: violet
+}
+
+.questionnaire6 {
+    color: tomato
+}

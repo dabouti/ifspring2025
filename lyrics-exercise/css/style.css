@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+main {
+    height: 200px;
+    text-align: center;
+}
+
+.maintitle {
+    color: white;
+}
+
+.artist {
+    color: gold;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+div {
+    background-color: white;
+    margin: 30px auto;
+    border: solid 5px gold;
+    padding: 15px;
+    color: black;
+    border-radius: 30px;
+    height: auto;
+    width: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.versetitle {
+    font-size: 28px;
+}

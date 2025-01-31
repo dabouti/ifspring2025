@@ -1,0 +1,72 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+}
+
+h2,
+h3 {
+    color: gray;
+}
+
+.styledFontNormal {
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.styledFontBold {
+    font-weight: bold;
+}
+
+.styledFont300 {
+    font-weight: 300;
+}
+
+.styledFont800 {
+    font-weight: 800;
+}
+
+.styledFontItalic {
+    font-style: italic;
+}
+
+.styledFontWide {
+    letter-spacing: .3em;
+}
+
+.styledFontNarrow {
+    letter-spacing: -.06em;
+}
+
+.styledFont3 {
+    letter-spacing: 3px;
+}
+
+.styledFontNone {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.styledFontUnderline {
+    text-decoration: underline;
+}
+
+.styledFontLineThrough {
+    text-decoration: line-through;
+}
+
+.styledFontOverline {
+    text-decoration: overline;
+}
+
+.styledFontUppercase {
+    text-transform: uppercase;
+}
+
+.styledFontLowercase {
+    text-transform: lowercase;
+}
+
+.styledFontCapitalize {
+    text-transform: capitalize;
+}

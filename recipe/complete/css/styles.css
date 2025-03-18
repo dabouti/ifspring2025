@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.nav {
+    background-color: rgb(148, 115, 4);
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    flex: 1 1 0;
+}
+
+.nav a:hover {
+    color: peachpuff;
+    font-weight: bold;
+}
+
+img {
+    width: 800px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#howto {
+    text-align: center;
+    color: rgb(139, 137, 6);
+    margin: 70px auto -20px auto;
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    margin: 10px auto;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+#description {
+    background-color: rgb(148, 115, 4);
+    margin-top: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white
+}
+
+#time {
+    text-align: center;
+    background-color: rgb(148, 115, 4);
+    width: 400px;
+    color: white;
+    margin: 0;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+#serving {
+    text-align: center;
+    background-color: rgb(148, 115, 4);
+    width: 400px;
+    color: white;
+    margin: 0;
+}
+
+.ing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ing h1 {
+    background-color: peachpuff;
+    margin: 20px 85% auto auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.ing ul {
+    font-size: 20px
+}
+
+section {
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+#instruction a {
+    font-size: 30px;
+    background-color: rgb(148, 115, 4);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+#instruction p {
+    font-size: 20px;
+}
+
+#instruction img {
+    border: black solid 5px;
+}
+
+#important {
+    font-size: 30px
+}
+
+#important_container {
+    background-color: rgb(167, 24, 24);
+    color: white;
+    border-radius: 30px 30px 0px 0px;
+    padding: 10px 20px 10px 20px;
+}
+
+#important_container p {
+    font-size: 20px;
+}
+
+.next_important_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#important_img {
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(148, 115, 4);
+    display: flex;
+    justify-content: center;
+    color: peachpuff
+}
+
+@media (max-width: 600px) {
+    .nav a {
+        flex: 1 1 100%;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    #howto {
+        margin-top: 200px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #title {
+        margin-top: 25px;
+    }
+
+    #instruction a {
+        font-size: 25px;
+    }
+
+    #important_container p {
+        font-size: 15px;
+    }
+
+    #important {
+        font-size: 25px
+    }
+
+    #instruction p {
+        font-size: 15px;
+    }
+
+    .ing ul {
+        font-size: 15px
+    }
+
+    #description {
+        font-size: 15px;
+
+    }
+
+    #time {
+        font-size: 15px;
+        width: auto;
+    }
+
+    #serving {
+        font-size: 15px;
+        width: auto;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    .ing h1 {
+        margin: 20px auto auto auto;
+    }
+
+
+
+}

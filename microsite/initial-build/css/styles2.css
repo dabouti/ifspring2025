@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: rgb(171, 23, 23);
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    color: white;
+    padding: 20px 16px;
+    text-align: center;
+    flex: 1;
+}
+
+.nav a:hover {
+    color: peachpuff;
+    font-weight: bold;
+}
+
+#begin {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+#plane {
+    width: 30px;
+}
+
+#star {
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#glass {
+    width: 400px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#facade {
+    width: 450px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#glassbg {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 15%;
+    padding: 20px;
+    background-color: black;
+}
+
+#starbg {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15%;
+    padding: 20px;
+    background-color: black;
+}
+
+#starpar {
+    display: flex;
+    flex-direction: row;
+    gap: 10%
+}
+
+#glasspar {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5%
+}
+
+#facadepar {
+    display: flex;
+    flex-direction: row;
+    gap: 5%
+}
+
+#Mary {
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+#Mary p {
+    font-size: large;
+    line-height: 1.5;
+}
+
+#right {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#left {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+hr::after {
+    content: "";
+    margin-right: -5px;
+    margin-left: -5px;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

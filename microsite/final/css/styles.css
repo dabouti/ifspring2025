@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    max-width: 100%;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    font-family: 'Poppins';
+    flex-wrap: wrap;
+
+}
+
+.nav a {
+    color: white;
+    padding: 20px 16px;
+    text-align: center;
+    flex: 1;
+}
+
+.nav a:hover {
+    color: peachpuff;
+    font-weight: bold;
+}
+
+img {
+    width: 30px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+#title {
+    margin-left: 15%;
+    scroll-margin-top: 100px;
+    font-family: 'Playfair Display';
+    font-size: 75px;
+}
+
+hr {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid #bc6c25;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#line::after {
+    content: "";
+    margin-right: -5px;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #bc6c25;
+}
+
+#sagrada {
+    width: 500px;
+    margin-left: 15%;
+    max-height: fit-content;
+}
+
+#gaudi {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#info {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    scroll-margin-top: 100px;
+}
+
+#info1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#description {
+    display: flex;
+}
+
+#whois {
+    width: 550px;
+    height: 50px;
+    padding-bottom: 25px;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+    background-color: #606c38;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+}
+
+#paragraph {
+    width: 35%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+#paragraph1 {
+    width: 550px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: -5px;
+    font-family: 'Poppins';
+}
+
+#learn {
+    width: 200px;
+    text-align: center;
+    background-color: rgb(148, 115, 4);
+    color: white;
+    margin: 0 45%;
+    padding: 10px 20px 10px 20px;
+    border: black solid 2px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+}
+
+#learn:hover {
+    font-weight: bold;
+    background-color: red;
+}
+
+#table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#full-table {
+    background-color: #dda15e;
+    width: 1000px;
+    height: 900px;
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#hour {
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+    font-family: 'Poppins';
+
+}
+
+
+#buy {
+    background-color: rgb(148, 115, 4);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: black solid 2px;
+    border-radius: 20px;
+}
+
+#buy:hover {
+    font-weight: bold;
+    background-color: red;
+}
+
+#closed {
+    color: red
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: #606c38
+}
+
+#Map {
+    width: 800px;
+    height: 500px;
+}
+
+
+@media (max-width: 1580px) {
+    .nav a {
+        flex: 1 1 100%;
+    }
+
+    #info {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        scroll-margin-top: 400px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #info1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #whois {
+        margin-left: 0%;
+        width: 100%;
+        padding-bottom: 0px;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    #paragraph1 {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 75%;
+    }
+
+    #description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title {
+        margin-left: 0%;
+        text-align: center;
+        scroll-margin-top: 300px;
+        font-size: 50px;
+    }
+
+    #line::after {
+        border: 0px;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    #sagrada {
+        width: 75%;
+        margin: auto;
+        max-width: fit-content;
+    }
+
+    #paragraph {
+        padding-top: 20px;
+        width: 75%;
+        margin: auto;
+        font-size: 25px;
+        font-family: 'Poppins';
+    }
+
+    #gaudi {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #Map {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    #buy {
+        margin: 100px;
+    }
+
+    h1 {
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    #buy {
+        margin: 0;
+    }
+
+    #Map {
+        max-height: fit-content;
+    }
+
+    #full-table {
+        height: fit-content;
+    }
+
+}
